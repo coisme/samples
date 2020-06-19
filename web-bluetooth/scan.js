@@ -43,7 +43,7 @@ async function onButtonClick() {
       });
     });
 
-    setTimeout(stopScan, 10000);
+    setTimeout(stopScan, 100000);
     function stopScan() {
       log('Stopping scan...');
       scan.stop();
