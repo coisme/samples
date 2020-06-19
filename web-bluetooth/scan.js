@@ -16,6 +16,7 @@ async function onButtonClick() {
     options.acceptAllAdvertisements = true;
   } else {
     options.filters = filters;
+    options.keepRepeatedDevices = true
   }
 
   try {
